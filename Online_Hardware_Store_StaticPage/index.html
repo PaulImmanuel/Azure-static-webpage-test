@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Hardware Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>ONLINE HARDWARE STORE</h1>
+        <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          </div>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <form action="/serverlogic" id="sign-in">
+            <legend><h3>Sign-In</h3></legend>
+            <label for="email">E-mail</label>
+            <input type="email" required><br>
+            <label for="password">Password</label>
+            <input type="password" required><br>
+            <button value="submit" class="sign-btn">Sign in</button>
+        </form>
+        <form action="/serverlogic" id="sign-up">
+            <legend><h3>Sign-Up</h3></legend>
+            <label for="email" >E-mail</label>
+            <input type="email" required><br>
+            <label for="password">Password</label>
+            <input type="password" required><br>
+            <label for="password">Confirm Password</label>
+            <input type="password" required><br>
+            <button value="submit" class="sign-btn">Sign up</button>
+        </form>
+    </div>
+
+    <div class="about">
+        <h4>About Us</h4>
+        <p>Welcome to our online hardware store! W're passionate about providing top-quality tools, materials,
+            and solutions for all your DIY and professional projects. Our mission is simple: to empower you with the
+            right products to build, repair, and create.hat Sets Us Apart: Quality Assurance: We curate a wide range of 
+            products from trusted manufacturers, ensuring durability and reliability.Expertise: Our team consists of seasoned 
+            professionals who understand the industry inside out. We're here to offer guidance and answer your questions.
+            Customer-Centric Approach: Your satisfaction is our priority. We strive to exceed your expectations 
+            through excellent service and prompt delivery.Community: We believe in fostering a community of like-minded individuals 
+            who share a passion for craftsmanship and home improvement.Whether you’re a seasoned contractor or a weekend warrior,
+            Our store is your go-to destination for all things hardware. Explore our catalog, discover new tools, and let’s build 
+            something great together!</p>
+    </div>
+
+    <div class="gallery">
+        <div class="g1"><h1>Power Tools</h1></div>
+        <div class="g2"><h1>All in Stock!</h1></div>
+        <div class="g3"><h1>Big Place</h1></div>
+    </div>
+
+
+    <!--Row1-->
+    <div class="cat1">
+        <div class="content">
+            <h2> Product Categories</h2>
+            <p><b>Power Tools:</b><br>
+                Our collection of power tools includes everything from drills and saws to sanders and grinders, featuring top brands like 
+                DeWalt, Bosch, and Makita. Whether you're working on a small home repair or a large-scale construction project, our power 
+                tools are designed to deliver precision, power, and durability.
+            <br><br><b>Hand Tools:</b><br>
+                Our hand tools section is stocked with the essentials, including hammers, screwdrivers, wrenches, pliers, and more. We offer 
+                tools from trusted names like Stanley, Craftsman, and Klein Tools, ensuring that you have reliable equipment for every task.
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <!--Row2-->
+    <div class="cat2">
+        <div class="image"></div>
+        <div class="content">
+            <p><b>Building Materials:</b><br>
+                From lumber and concrete to insulation and adhesives, our building materials category has everything you need to bring your 
+                construction projects to life. We offer high-quality materials in various sizes and quantities, and our bulk purchasing options 
+                help you save on large orders.
+            <br><br><b>Electrical Supplies:</b><br>
+            Our electrical supplies include a wide range of products, from wiring and circuit breakers to lighting fixtures and smart home devices. 
+            We carry leading brands like Leviton, Philips, and Siemens, ensuring that your electrical projects are safe and up to code.
+            <br><br><b>Gardening Tools:</b><br>
+            For the green thumbs out there, our gardening tools section offers everything you need to maintain a beautiful outdoor space. From 
+            lawnmowers and trimmers to shovels and pruners, we have a wide selection of tools to help you keep your garden in top shape.
+        </div>
+    </div>
+
+    <!--Row3-->
+    <div class="cat1">
+        <div class="content">
+            <h2>Special Offers and Promotions</h2>
+            <p><b>Discounts and Deals:</b><br>
+                We love helping our customers save! Check out our discounts and deals section for the latest promotions on popular products. 
+                Whether it's seasonal sales or clearance items, there's always a way to get more for your money at our Shop.
+            <br><br><b>Loyalty Programs:</b><br>
+            Join our loyalty program and start earning points with every purchase. As a member, you'll enjoy exclusive discounts, early access 
+            to sales, and special offers just for you. It's our way of saying thank you for choosing our shop!
+            </p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <!--Row4-->
+    <div class="cat2">
+        <div class="image"></div>
+        <div class="content">
+            <h2>Customer Support</h2>
+            <p><b>Expert Advice:</b><br>
+                Need help selecting the right product? Our team of experts is here to assist you. Whether you have questions about a specific 
+                tool or need advice on a project, we're just a phone call, chat, or email away. We're committed to helping you find the perfect solution for your needs.
+            <br><br><b>Installation Services:</b><br>
+            For those who need a little extra help, we offer professional installation services. Our certified technicians can handle everything 
+            from installing new lighting fixtures to setting up smart home devices. Simply book an appointment, and we'll take care of the rest.
+            </p>
+        </div>
+    </div>
+
+    <div class="contactus">
+
+
+            <!--Row5 Email-->
+            <div class="Newsletter">
+                
+                <form action="/serverlogic" method="post">
+                    <legend><h2>Contact US!</h2></legend><br>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" placeholder="Enter your Name" size="30"><br>
+                    <label for="email">Subscribe to our Newsletters & Recieve Reg form </label><br>
+                    <input type="email" placeholder="Enter your email address" size="30" required>
+                    <br>
+                    <button>Get me in touch!</button>
+                </form>
+            </div>
+
+            <!--Row5 map -->
+            <div class='location'>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31329.604966645264!2d76.90970304318046!3d11.023569379076337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859028d55f177%3A0xc8004581619a7da0!2sTAMILNADU%20HARDWARE%20AND%20CO!5e0!3m2!1sen!2sin!4v1723188557971!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+    </div>
+    <div class="footer">
+       <small> &copy; Copyright 2024 Online Hardware store Limited</small>
+    </div>    
+</body>
+</html>
